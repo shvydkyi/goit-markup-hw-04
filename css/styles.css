@@ -496,6 +496,11 @@ padding-bottom: 60px;
 background-color: var(--background-color);
 }
 
+/* .footer-container {
+  display: flex;
+  align-items: baseline;
+} */
+
 .footer-logo {
 display: block;
 margin-bottom: 20px;
@@ -524,6 +529,55 @@ margin-bottom: 6px;
 .footer-contacts:hover,
 .footer-contacts:focus {
   color: var(--accent-color);
+}
+
+.footer-soc-section {
+  align-items: baseline;
+  text-align: left;
+}
+
+.footer-join {
+  display: block;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-white-color)
+}
+
+.footer-soc-list {
+  padding: 0;
+  display: flex;
+}
+
+.footer-soc-item {
+  margin-right: 10px;
+  justify-content: center;
+}
+
+.footer-soc-item:last-child {
+  margin-right: 0;
+}
+
+.footer-soc-link {
+  display: flex;
+  background: rgba(255, 255, 255, 0.1);
+  width: 44px;
+  height: 44px;
+  border-radius: 22px;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-soc-link:hover,
+.footer-soc-link:focus {
+  background-color: var(--accent-color)
+}
+
+.footer-soc-icon {
+  fill: var(--primary-white-color)
 }
 
 /* ----------------------Страница Портфолио------------------ */
