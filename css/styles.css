@@ -99,6 +99,7 @@ margin-right: 50px;
   display: flex;
   }
 
+
 .header-contacts-item:not(:last-child) {
 margin-right: 50px;
 }
@@ -114,6 +115,13 @@ margin-right: 50px;
   color: var(--secondary-text-color);
   padding-top: 32px;
   padding-bottom: 32px;
+  display: flex;
+  align-items: center;
+}
+
+.link-icon {
+  margin-right: 10px;
+  fill: currentColor;
 }
 
 .header-link:hover,
