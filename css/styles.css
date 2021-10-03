@@ -496,10 +496,14 @@ padding-bottom: 60px;
 background-color: var(--background-color);
 }
 
-/* .footer-container {
+.footer-container {
   display: flex;
   align-items: baseline;
-} */
+}
+
+.footer-contact {
+  margin-right: 70px;
+}
 
 .footer-logo {
 display: block;
