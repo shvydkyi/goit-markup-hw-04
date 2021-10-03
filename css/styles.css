@@ -7,6 +7,7 @@
   --background-secondary-color: #F5F4FA;
   --btn-color: #188ce8;
   --card-set-gap: 30px;
+  --icon-color: #AFB1B8;
 }
 
 
@@ -404,6 +405,43 @@ text-align: center;
 color: var(--secondary-text-color);
 }
 
+.soc-list {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.soc-list-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+/* .soc-list-item: {
+  margin-right: 10px;
+}
+
+..soc-list-item:last-child {
+  margin-right: 0;
+} */
+
+
+
+.soc-link {
+  display: flex;
+  padding: 0;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  fill: var(--icon-color);
+  justify-content: center;
+  align-items: center;
+}
+
+.soc-link:hover,
+.soc-link:focus {
+  background-color: var(--accent-color);
+  fill: var(--primary-white-color)
+}
 
 /* --------------------Футер-------------------------- */
 
