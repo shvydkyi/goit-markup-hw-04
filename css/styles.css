@@ -381,7 +381,7 @@ margin-right: calc(-1 * var(--card-set-gap))
 }
 
 .team-card-content {
-  padding: 30px 0;
+  padding: 30px 32px;
 }
 
 .team-name {
@@ -659,7 +659,7 @@ min-width: 73px;
 }
 
 .projects-item {
-  display: flex;
+  display: block;
   flex-basis: calc(100% / 3 - var(--card-set-gap));
   margin-top: var(--card-set-gap);
   margin-left: var(--card-set-gap);
@@ -667,6 +667,10 @@ min-width: 73px;
 
 /* .projects-card:hover,
 .projects-card:focus, */
+/* .projects-list-link:hover,
+.projects-list-link:focus */
+/* .projects-item:hover,
+.projects-item:focus, */
 .projects-list-link:hover,
 .projects-list-link:focus {
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -681,6 +685,7 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   padding: 20px 24px;
   border: 1px solid #eeeeee;
   border-top: none;
+ 
 }
 
 .projects-list-name {
