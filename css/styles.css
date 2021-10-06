@@ -165,7 +165,6 @@ font-weight: bold;
 font-size: 26px;
 line-height: 1.19;
 color: var(--primary-white-color);
-margin-left: -93px;
 }
 
 .logo-black:hover,
@@ -499,15 +498,23 @@ background-color: var(--background-color);
 .footer-container {
   display: flex;
   align-items: baseline;
+  
 }
 
 .footer-contact {
-  margin-right: 70px;
+   margin-right: 70px;
 }
 
 .footer-logo {
 display: block;
-margin-bottom: 20px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--accent-color);
+  margin-bottom: 20px;
+
 }
 
 .footer-adress {
